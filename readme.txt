@@ -8,7 +8,5 @@ to the model, which will answer to the query.
 
 Then this answer will be sent to frontend by backend.
 
-
-
 backend running on port 5000
 frontend running on port 3000
