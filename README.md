@@ -4,11 +4,11 @@ This repository contains a retrieval augmented generation system implemented in 
 
 ## Components
 
-- **Chainlit**: The system uses Chainlit for running the main application. To run Chainlit on port 8002, execute the following command: `chainlit run main.py -w --host 127.0.0.1 --port 8002`
+- **Chainlit**: The system uses Chainlit for running the main application. To run Chainlit on port `8002`, execute the following command: `chainlit run main.py -w --host 127.0.0.1 --port 8002`
 
 - **Model (LLAMA2)**: The system employs the LLAMA2 model for chatting. You can find the model [here](https://huggingface.co/TheBloke/Llama-2-7B-GGML/blob/main/llama-2-7b.ggmlv3.q8_0.bin).
 
-- **Typsense**: Typsense is utilized for retrieval and searching through documents. It runs on port 8081 with self-hosting using Docker. To install Typesense for local hosting, execute: `docker pull typesense/typesense`
+- **Typsense**: Typsense is utilized for retrieval and searching through documents. It runs on port `8081` with self-hosting using Docker. To install Typesense for local hosting, execute: `docker pull typesense/typesense`
 To run with API key "xyz", execute: `docker run -p 8108:8108 -v %cd%/typesense-data:/data typesense/typesense:26.0 --data-dir /data --api-key="xyz" --enable-cors`
 
 - **Universal Sentence Encoder Model**: Google's Universal Sentence Encoder model is used for sentence embeddings. You can access the model [here](https://www.kaggle.com/models/google/universal-sentence-encoder).
