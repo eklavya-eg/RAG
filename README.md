@@ -1,5 +1,7 @@
 # RAG Chatbot application
 
+## Checkout other branches for rag with multiple different tech stacks typesense, faiss, pincone, chroma, sqlite, flask, universal sentence encoder, all mini transformers, llama, gpt4 (rapid api) 
+
 ## Project structure
 
 In this project you find 2 directories
