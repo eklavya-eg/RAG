@@ -1,5 +1,9 @@
 # RAG Chatbot application
 
+# Name - Eklavya Gupta
+# SAP ID - 500093960
+## I am eklavya gupta. This is solution to assignment by CYBERNETYX. 
+
 ## Checkout other branches for rag with multiple different tech stacks typesense, faiss, pincone, chroma, sqlite, flask, universal sentence encoder, all mini transformers, llama, gpt4 (rapid api) 
 
 ## Project structure
